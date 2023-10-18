@@ -1,0 +1,376 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/bin/RelWithDebInfo/Active_Suspension_DEMO.exe"
+		},
+		{
+			"path" : "C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/bin/RelWithDebInfo/Active_Suspension_DEMO.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_options",
+			"add_definitions",
+			"include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc  -openmp /DWIN32 /D_WINDOWS /W3 /GR /EHsc  -openmp    /arch:AVX2 /arch:AVX  /Zc:__cplusplus /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG -std:c++17"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/wd4275"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4251"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/DWIN32"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/D_WINDOWS"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/W3"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/GR"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/EHsc"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-openmp"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/arch:AVX2"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/arch:AVX"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/Zc:__cplusplus"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "GLFW_DLL"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_SCL_SECURE_NO_DEPRECATE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/Active_Suspension_DEMO"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/chrono/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/chrono/src/chrono"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/chrono/src/chrono/collision/bullet"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/chrono/src/chrono/collision/gimpact"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/chrono/src/chrono_thirdparty/HACD"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/chrono/src/chrono_thirdparty/HACDv2"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/chrono_build"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/libraries/eigen-3.4.0"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/libraries/irrlicht-1.8.5/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/libraries/irrKlang-64bit-1.6.0/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Program Files/MATLAB/R2023a/extern/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/jkimball/Documents/Chrono/libraries/blaze"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/jkimball/Documents/Chrono/libraries/gl/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					12
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Active_Suspension_DEMO::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc  -openmp /DWIN32 /D_WINDOWS /W3 /GR /EHsc  -openmp    /arch:AVX2 /arch:AVX  /Zc:__cplusplus /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/NODEFAULTLIB:libcmt.lib",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/NODEFAULTLIB:libcmtd.lib",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/NODEFAULTLIB:msvcrtd.lib",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "Ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\MATLAB\\R2023a\\extern\\lib\\win64\\microsoft\\libeng.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\MATLAB\\R2023a\\extern\\lib\\win64\\microsoft\\libmx.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\MATLAB\\R2023a\\extern\\lib\\win64\\microsoft\\libmat.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\jkimball\\Documents\\Chrono\\libraries\\gl\\lib\\glew32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\jkimball\\Documents\\Chrono\\libraries\\gl\\lib\\glfw3dll.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "glu32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Active_Suspension_DEMO",
+	"nameOnDisk" : "Active_Suspension_DEMO.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

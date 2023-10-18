@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\bin\Release\Active_Suspension_DEMO.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\x64\Release\COPY_DLLS</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

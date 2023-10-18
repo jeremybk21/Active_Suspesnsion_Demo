@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A4F4B075-DEE1-3777-B03D-8E8AFCC66B78}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Active_Suspension_DEMO</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Active_Suspension_DEMO.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Active_Suspension_DEMO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Active_Suspension_DEMO.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Active_Suspension_DEMO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Active_Suspension_DEMO.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Active_Suspension_DEMO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Active_Suspension_DEMO.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Active_Suspension_DEMO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/jkimball/Documents/Chrono/libraries/gl/include" /Zc:__cplusplus /Zc:__cplusplus /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4251</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DEBUG;DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NOMINMAX;GLFW_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NOMINMAX;GLFW_DLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;C:\Users\jkimball\Documents\Chrono\libraries\gl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;C:\Users\jkimball\Documents\Chrono\libraries\gl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libeng.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libmx.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libmat.lib;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\glew32.lib;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\glfw3dll.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;libcmtd.lib;msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/lib/Debug/Active_Suspension_DEMO.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/bin/Debug/Active_Suspension_DEMO.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/jkimball/Documents/Chrono/libraries/gl/include" /Zc:__cplusplus /Zc:__cplusplus /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4275;4251</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NOMINMAX;GLFW_DLL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NOMINMAX;GLFW_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;C:\Users\jkimball\Documents\Chrono\libraries\gl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;C:\Users\jkimball\Documents\Chrono\libraries\gl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libeng.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libmx.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libmat.lib;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\glew32.lib;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\glfw3dll.lib;opengl32.lib;glu32.lib;C:\Users\jkimball\Documents\Chrono\chrono_build\lib\Release\ChronoEngine_opengl.lib;C:\Users\jkimball\Documents\Chrono\chrono_build\lib\Release\ChronoEngine_multicore.lib;C:\Users\jkimball\Documents\Chrono\chrono_build\lib\Release\ChronoEngine_vehicle_irrlicht.lib;C:\Users\jkimball\Documents\Chrono\chrono_build\lib\Release\ChronoModels_vehicle.lib;C:\Users\jkimball\Documents\Chrono\chrono_build\lib\Release\ChronoEngine_vehicle.lib;C:\Users\jkimball\Documents\Chrono\chrono_build\lib\Release\ChronoEngine_matlab.lib;C:\Users\jkimball\Documents\Chrono\chrono_build\lib\Release\ChronoEngine_postprocess.lib;C:\Users\jkimball\Documents\Chrono\chrono_build\lib\Release\ChronoEngine_irrlicht.lib;C:\Users\jkimball\Documents\Chrono\chrono_build\lib\Release\ChronoModels_robot.lib;C:\Users\jkimball\Documents\Chrono\chrono_build\lib\Release\ChronoEngine.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;libcmtd.lib;msvcrtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/lib/Release/Active_Suspension_DEMO.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/bin/Release/Active_Suspension_DEMO.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/jkimball/Documents/Chrono/libraries/gl/include" /Zc:__cplusplus /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4275;4251</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NOMINMAX;GLFW_DLL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NOMINMAX;GLFW_DLL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;C:\Users\jkimball\Documents\Chrono\libraries\gl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;C:\Users\jkimball\Documents\Chrono\libraries\gl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libeng.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libmx.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libmat.lib;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\glew32.lib;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\glfw3dll.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;libcmtd.lib;msvcrtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/lib/MinSizeRel/Active_Suspension_DEMO.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/bin/MinSizeRel/Active_Suspension_DEMO.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/jkimball/Documents/Chrono/libraries/gl/include" /Zc:__cplusplus /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4251</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NOMINMAX;GLFW_DLL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NOMINMAX;GLFW_DLL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;C:\Users\jkimball\Documents\Chrono\libraries\gl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\Active_Suspension_DEMO;C:\Users\jkimball\Documents\Chrono\chrono\src;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\bullet;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono\collision\gimpact;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACD;C:\Users\jkimball\Documents\Chrono\chrono\src\chrono_thirdparty\HACDv2;C:\Users\jkimball\Documents\Chrono\chrono_build;C:\Users\jkimball\Documents\Chrono\libraries\eigen-3.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;C:\Users\jkimball\Documents\Chrono\libraries\irrlicht-1.8.5\include;C:\Users\jkimball\Documents\Chrono\libraries\irrKlang-64bit-1.6.0\include;C:\Program Files\MATLAB\R2023a\extern\include;C:\Users\jkimball\Documents\Chrono\libraries\blaze;C:\Users\jkimball\Documents\Chrono\libraries\gl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libeng.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libmx.lib;C:\Program Files\MATLAB\R2023a\extern\lib\win64\microsoft\libmat.lib;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\glew32.lib;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\glfw3dll.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;libcmtd.lib;msvcrtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/lib/RelWithDebInfo/Active_Suspension_DEMO.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/bin/RelWithDebInfo/Active_Suspension_DEMO.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo -BC:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/build --check-stamp-file C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Users\jkimball\Documents\Chrono\chrono_build\cmake\chrono-config.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeCCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeSystem.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\CopyImportedTargetProperties.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-config.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-targets-release.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-targets.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Config.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3ConfigVersion.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Targets-release.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo -BC:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/build --check-stamp-file C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Users\jkimball\Documents\Chrono\chrono_build\cmake\chrono-config.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeCCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeSystem.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\CopyImportedTargetProperties.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-config.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-targets-release.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-targets.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Config.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3ConfigVersion.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Targets-release.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo -BC:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/build --check-stamp-file C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Users\jkimball\Documents\Chrono\chrono_build\cmake\chrono-config.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeCCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeSystem.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\CopyImportedTargetProperties.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-config.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-targets-release.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-targets.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Config.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3ConfigVersion.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Targets-release.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo -BC:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/build --check-stamp-file C:/Users/jkimball/Documents/Chrono/chrono_projects/Active_Suspesnsion_Demo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Users\jkimball\Documents\Chrono\chrono_build\cmake\chrono-config.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeCCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\3.27.7\CMakeSystem.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\CopyImportedTargetProperties.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-config.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-targets-release.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glew\glew-targets.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Config.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3ConfigVersion.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Targets-release.cmake;C:\Users\jkimball\Documents\Chrono\libraries\gl\lib\cmake\glfw3\glfw3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jkimball\Documents\Chrono\chrono_projects\Active_Suspesnsion_Demo\build\ZERO_CHECK.vcxproj">
+      <Project>{645D27D6-C1D8-3494-B0FA-232991211D1F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
